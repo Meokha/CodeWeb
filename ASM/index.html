@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phone Store</title>
+    <link rel="stylesheet" href="web.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+    <!-- HEADER -->
+    <header>
+        <div class="logo">
+            <h1><i href="index.html" class="fa-solid fa-mobile-screen-button"> </i> THU YẾN Store</h1>
+        </div>
+        <nav>
+            <ul>
+                <ul class="dropdown">
+                    <li class="dropdown-toggle">Products <span class="arrow"><i class="fa-solid fa-caret-down"></i></span>
+                        <ul class="dropdown-menu">
+                            <li data-category="iphone">iPhone</li>
+                            <li data-category="android">Android</li>
+                            <li data-category="button_phone">Push button</li>
+                        </ul>
+                    </li>
+                </ul>
+                <li><a href="cart.html"><i class="fa-solid fa-cart-shopping"></i> Shopping Cart</a></li>
+                <li><a href="#"><i class="fa-solid fa-phone"></i> Suppport</a></li>
+            </ul>
+        </nav>
+        <div class="search-bar">
+            <input type="text" id="search-input" placeholder="search...">
+            <button><i class="fa fa-search"></i></button>
+        </div>
+        <div class="user-menu">
+            <img src="img/user.png" alt="" class="user-avatar">
+            <ul class="dropdown-menu user-dropdown">
+                <li><a href="login.html"> Logout</a></li>
+            </ul>
+        </div>
+    </header>
+    <!-- DANH SÁCH SẢN PHẨM -->
+    <div class="product-container" id="product-list">
+        <div class="product">
+            <div class="product-item" data-category="iphone">
+                <img src="img/0008771_iphone-14-pro-256gb.png" alt="iPhone 14 Pro">
+                <h2>iPhone 14 Pro</h2>
+                <p class="price">23,990,000 <i class="fa-solid fa-dong-sign"></i></p>
+                <div class="button-group">
+                    <a href="#" class="button cart-button">Add to cart</a>
+                    <a href="#" class="button buy-button">Buy</a>
+                </div>
+            </div>
+        </div>
+        <div class="product-item" data-category="android">
+            <img src="img/v_by6.webp" alt="Google Pixel 7">
+            <h2>Google Pixel 7</h2>
+            <p class="price">6,490,000 <i class="fa-solid fa-dong-sign"></i></p>
+            <div class="button-group">
+                <a href="#" class="button cart-button">Add to cart</a>
+                <a href="#" class="button buy-button">Buy</a>
+            </div>
+        </div>
+        <div class="product-item" data-category="iphone">
+            <img src="img/1503657514.jpeg" alt="iPhone 16 Promax">
+            <h2>iPhone 16 Promax</h2>
+            <p class="price">6,490,000 <i class="fa-solid fa-dong-sign"></i></p>
+            <div class="button-group">
+                <a href="#" class="button cart-button">Add to cart</a>
+                <a href="#" class="button buy-button">Buy</a>
+            </div>
+        </div>
+        <div class="product-item" data-category="button_phone">
+            <img src="img/nokia-110-4g-tim-thumb-600x600.jpg" alt="">
+            <h2>Nokia 110 4G Pro</h2>
+            <p class="price">750,000 <i class="fa-solid fa-dong-sign"></i></p>
+            <div class="button-group">
+                <a href="#" class="button cart-button">Add to cart</a>
+                <a href="#" class="button buy-button">Buy</a>
+            </div>
+        </div>
+        <div class="product-item" data-category="android">
+            <img src="img/shopping.webp" alt="">
+            <h2> realme Note 50 4GB/128GB</h2>
+            <p class="price">2,890,000 <i class="fa-solid fa-dong-sign"></i></p>
+            <div class="button-group">
+                <a href="#" class="button cart-button">Add to cart</a>
+                <a href="#" class="button buy-button">Buy</a>
+            </div>
+        </div>
+        <div class="product-item" data-category="iphone">
+            <img src="img/0008771_iphone-14-pro-256gb.png" alt="">
+            <h2>iPhone 16 Pro</h2>
+            <p class="price">29,490,000 <i class="fa-solid fa-dong-sign"></i></p>
+            <div class="button-group">
+                <a href="#" class="button cart-button">Add to cart</a>
+                <a href="#" class="button buy-button">Buy</a>
+            </div>
+        </div>
+        <div class="product-item" data-category="android">
+            <img src="img/blackshark-4s-white_1635211151.jpg.jpg" alt="">
+            <h2>Xiaomi Black Shark 4s</h2>
+            <p class="price">10,690,000 <i class="fa-solid fa-dong-sign"></i></p>
+            <div class="button-group">
+                <a href="#" class="button cart-button">Add to cart</a>
+                <a href="#" class="button buy-button">Buy</a>
+            </div>
+        </div>
+        <div class="product-item" data-category="android">
+            <img src="img/Realme 11 Pro Plus (12GB - 512GB) 5G.webp" alt="">
+            <h2>Realme 11 Pro Plus 5G</h2>
+            <p class="price">7,199,000 <i class="fa-solid fa-dong-sign"></i></p>
+            <div class="button-group">
+                <a href="#" class="button cart-button">Add to cart</a>
+                <a href="#" class="button buy-button">Buy</a>
+            </div>
+        </div>
+        <div class="product-item" data-category="android">
+            <img src="img/zte-nubia-red-magic-9-pro-1d.webp" alt="">
+            <h2>ZTE nubia Red Magic 9 Pro</h2>
+            <p class="price">14,990,000 <i class="fa-solid fa-dong-sign"></i></p>
+            <div class="button-group">
+                <a href="#" class="button cart-button">Add to cart</a>
+                <a href="#" class="button buy-button">Buy</a>
+            </div>
+        </div>
+        <div class="product-item" data-category="android">
+            <img src="img/red-magic-10-pro-den.jpg.webp" alt="">
+            <h2>ZTE Nubia Red Magic 10 Pro</h2>
+            <p class="price">19,950,000 <i class="fa-solid fa-dong-sign"></i></p>
+            <div class="button-group">
+                <a href="#" class="button cart-button">Add to cart</a>
+                <a href="#" class="button buy-button">Buy</a>
+            </div>
+        </div>
+        <div class="product-item" data-category="android">
+            <img src="img/rog-phone-9-trang.jpg.webp" alt="">
+            <h2>Asus ROG Phone 9</h2>
+            <p class="price">17,650,000 <i class="fa-solid fa-dong-sign"></i></p>
+            <div class="button-group">
+                <a href="#" class="button cart-button">Add to cart</a>
+                <a href="#" class="button buy-button">Buy</a>
+            </div>
+        </div>
+        <div class="product-item" data-category="android">
+            <img src="img/asus-rog-phone-8-den.jpg.webp" alt="">
+            <h2>Asus ROG Phone 8 5G</h2>
+            <p class="price">15,450,000 <i class="fa-solid fa-dong-sign"></i></p>
+            <div class="button-group">
+                <a href="#" class="button cart-button">Add to cart</a>
+                <a href="#" class="button buy-button">Buy</a>
+            </div>
+        </div>
+        <div class="product-item" data-category="android">
+            <img src="img/samsung-galaxy-s25-ultra-gia-re-2.jpg" alt="">
+            <h2>Samsung Galaxy S25 Ultra</h2>
+            <p class="price">25,390,000 <i class="fa-solid fa-dong-sign"></i></p>
+            <div class="button-group">
+                <a href="#" class="button cart-button">Add to cart</a>
+                <a href="#" class="button buy-button">Buy</a>
+            </div>
+        </div>
+        <div class="product-item" data-category="android">
+            <img src="img/z folt 6.webp" alt="">
+            <h2>Samsung Galaxy Z Fold6</h2>
+            <p class="price">35,990,000 <i class="fa-solid fa-dong-sign"></i></p>
+            <div class="button-group">
+                <a href="#" class="button cart-button">Add to cart</a>
+                <a href="#" class="button buy-button">Buy</a>
+            </div>
+        </div>
+        <div class="product-item" data-category="android">
+            <img src="img/flip 6.webp" alt="">
+            <h2>Samsung Galaxy Z Flip6</h2>
+            <p class="price">21,990,000 <i class="fa-solid fa-dong-sign"></i></p>
+            <div class="button-group">
+                <a href="#" class="button cart-button">Add to cart</a>
+                <a href="#" class="button buy-button">Buy</a>
+            </div>
+        </div>
+        <div class="product-item" data-category="android">
+            <img src="img/oppo_find_x8_space_black_1_6a9c3746b3.png" alt="">
+            <h2>OPPO Find X8 5G</h2>
+            <p class="price">22,990,000 <i class="fa-solid fa-dong-sign"></i></p>
+            <div class="button-group">
+                <a href="#" class="button cart-button">Add to cart</a>
+                <a href="#" class="button buy-button">Buy</a>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>Policy</h3>
+                <ul>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Use</a></li>
+                    <li><a href="#">Return Policy</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contact</h3>
+                <p>Email: support@phoneshop.com</p>
+                <p>Hotline: 1800-1234</p>
+                <p>Address: 123 ABC Street, Ha Noi</p>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <div class="social-icons">
+                    <a href="#" class="social-link">
+                        <i class="fa-brands fa-facebook"></i> <span>Facebook</span>
+                    </a>
+                    <a href="#" class="social-link">
+                        <i class="fa-brands fa-github"></i> <span>Github</span>
+                    </a>
+                    <a href="#" class="social-link">
+                        <i class="fa-brands fa-discord"></i> <span>Discord</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <p class="footer-bottom">&copy; 2025 Phone Store. All rights reserved.</p>
+    </footer>
+    <script src="cart.js"></script>
+    <script src="search.js"></script>
+</body>
+</html>
